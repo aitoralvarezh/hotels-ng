@@ -1,0 +1,18 @@
+@import "../styles.scss";
+
+.page {
+    max-width: 120rem;
+    margin: 8rem auto;
+    background-color: $GreyLight-2;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+    .container {
+        display: flex;
+        grid-template-columns: 20%, 80%;
+        .col1 {
+            flex: 0 0 18%
+        }
+        .col2 {
+            flex: 1;
+        }
+    }
+}

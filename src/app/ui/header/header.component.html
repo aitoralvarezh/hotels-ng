@@ -1,0 +1,13 @@
+<div class="header">
+    <img class="img" src='../../../assets/img/logo.png'>
+    <div class="searchbar">
+        <input type="text" placeholder="Search hotels..">
+        <img src="../../../assets/img/SVG/magnifying-glass.svg" alt="" srcset="">
+    </div>
+    <div class="link-group">
+        <app-icon-link
+        *ngFor="let link of links"
+            [link]="link"
+        ></app-icon-link>
+    </div>
+</div>
